@@ -5,9 +5,10 @@ h1 {
 body {
   min-height: 100vh;
   min-width: 100vh;
-  background-color: #66b1cf;
   color: #ffffff;
-background-image: url("./ezgif-4-35b91d1fa3.gif");
+background-image: url("./bg.png");
+background-size: contain;
+background-repeat: calc();
 background-repeat: no-repeat;
   align-items: center;  
 }
@@ -81,7 +82,7 @@ p {
 }
 
 .card .back {
-  background-image: url("pbc.png");
+  background-image: url("cardbg.png");
   background-position: center center;
   background-size: cover;
   backface-visibility: hidden;
